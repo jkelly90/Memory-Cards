@@ -79,3 +79,9 @@ function updateCurrentText() {
 }
 
 createCards();
+
+// Event listeners
+
+nextBtn.addEventListener('click', () => {
+    cardsEl[currentActiveCard].className = 'card left'
+});
